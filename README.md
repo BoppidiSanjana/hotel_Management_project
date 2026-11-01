@@ -151,7 +151,7 @@ HOTEL_TZ=<your timezone, e.g. Asia/Kolkata>
 The build command runs `npm run setup` on every deploy. It is idempotent: tables use `IF NOT EXISTS`, sample rooms are only inserted into an empty table, and the admin password is re-applied from `ADMIN_PASSWORD`. To rotate the admin password, change that variable and redeploy.
 
 ### Step 4: Verify
-1. Open `https://<your-service>.onrender.com` and log in.
+1. Open `https://hotel-management-project-j5u2.onrender.com/` and log in.
 2. Create a guest and a booking, then try an overlapping booking. It should be refused.
 3. Optionally load demo data once from your machine, with your `.env` pointing at TiDB: `npm run seed-demo`.
 
