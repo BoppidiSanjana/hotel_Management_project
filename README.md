@@ -2,7 +2,7 @@
 
 A full-stack web application for running a small hotel: rooms, guests, reservations, check-in/out, payments and live occupancy, in one calm workspace. Double-bookings are prevented at the database level, and the booking workflow replaces manual tracking.
 
-**Live demo:** _add your Render URL here after deploying_
+**Live demo:**  https://hotel-management-project-j5u2.onrender.com/
 
 ![Dashboard](docs/screenshots/dashboard.png)
 
